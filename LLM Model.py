@@ -16,10 +16,10 @@ from langchain.docstore.document import Document as LC_Document
 import speech_recognition as sr
 import pyttsx3 
 
-os.environ["COHERE_API_KEY"] = "XL0l1cfNDXPI4DFQf19IDQFy84hdeTZ3HSOVmnhs"
+os.environ["COHERE_API_KEY"] = ""
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_ENDPOINT"]="https://api.smith.langchain.com"
-os.environ["LANGCHAIN_API_KEY"]="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"
+os.environ["LANGCHAIN_API_KEY"]=""
 os.environ["LANGCHAIN_PROJECT"]="Metaverse Project"
 
 
